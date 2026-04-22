@@ -4,7 +4,8 @@ const { minify } = require("html-minifier-terser");
 async function run() {
   const inputPath = "index-dev.html";
   const outputDir = "dist";
-  const outputPath = `${outputDir}/index.html`;
+  //   const outputPath = `${outputDir}/index.html`;
+  const outputPath = `index.html`;
 
   const html = fs.readFileSync(inputPath, "utf8");
 
